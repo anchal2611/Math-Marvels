@@ -1,0 +1,143 @@
+html{
+	background-color: black;
+	height: 100%;
+}
+nav {
+	background-color: darkcyan;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 50px;
+}
+nav .logo h1 {
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+} 
+nav li {
+	margin: 0 10px;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+nav a:hover{
+    background-color: black;
+	color: darkcyan;
+	border-right: solid 5px #e1b382;
+	padding: 7px;
+}
+/*scrollbar*/
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 5px;
+  color: #e1b382;
+}
+::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 5px
+}
+::-webkit-scrollbar-thumb {
+   background: #e1b382;
+   border-radius: 5px
+}
+::-webkit-scrollbar-thumb:hover {
+	background: white;
+    border-radius: 5px
+}
+body{
+	padding: 7px;
+	margin: 7px;
+	width:100vw;
+	height: 100vh;
+}
+.panel{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: dashed 3px tan;
+}
+.question-container{
+	margin: 10px;
+	padding: 5px;
+	width: 90%;
+	height: 10%;
+	background-color: #23f0b2;
+	border-radius: 10px;
+	font-size: x-large;
+	text-align: center;
+	color: #07308a;
+}
+.result{
+	margin: 10px;
+	padding: 5px;
+	width:90%;
+	text-align: center;
+	font-size: 40px;
+	border: whitesmoke 3px solid;
+	border-radius: 6px;
+}
+.option-container{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+	padding: 10px;
+	width: 80vw;
+	border: #e1b382 5px solid;
+}
+.option{
+	padding: 10px;
+	width: 15vw;
+	height: 10vh;
+	font-size: larger;
+	background-color: coral;
+	border: none;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+.option:hover{
+	background-color: black;
+	color: whitesmoke;
+	border-right: solid 5px coral;
+}
+.option:visited{
+	background-color: coral;
+}
+.navigation{
+	width: 80vw;
+	height: 10vh;
+	margin: 10px;
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	background-color:;
+}
+.evaluate,.next{
+	width:30vw;
+	height: 8vh;
+	padding: 5px;
+	font-size: larger;
+}
+.evaluate{
+	border: none;
+	background-color: green;
+	color: whitesmoke;
+}
+.next{
+	color: whitesmoke;
+	background-color: red;
+	border: none;
+}
