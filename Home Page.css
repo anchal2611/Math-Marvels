@@ -1,0 +1,125 @@
+html{
+  background: linear-gradient(to bottom, white, #3194b6);
+  font-family: cursive;
+  height: 100%;
+}
+
+body{
+  margin: 7px;
+  padding: 7px;
+}
+
+nav {
+  background-color: #14213D;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+nav .logo h1 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+} 
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav a:hover{
+  background-color: #06ccfd;
+  color: black;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #A5D7E8;
+  border-radius: 5px
+}
+
+::-webkit-scrollbar-thumb {
+  background: #14213D;
+  border-radius: 5px
+}
+
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 5px
+}
+
+video{
+  margin-right: 100px;
+  float: right;
+  border: 5px solid #14213D;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 328px;
+  width: 650px;
+  max-width: 100%; /* make the video responsive */
+  display: block;
+  margin: 0 auto;
+}
+
+#text{
+  color: black;
+  margin-top: 100px;
+  flex-wrap: wrap;
+
+}
+
+#text p{
+  font-size: 150%;
+  margin-left: 30px;
+  flex: 1; /* take the remaining width of the wrapper */
+  padding: 0 20px; /* add some padding to the text */
+  box-sizing: border-box; /* include padding in the width */
+  margin-top: 20px;
+}
+}
+@media screen and (max-width: 768px) {
+  /* apply styles for smaller screens */
+  #text {
+    flex-direction: column;
+  }
+  
+  video {
+    flex: 0 0 100%; /* full width */
+  }
+  
+  #text p {
+    flex: 1;
+    margin-top: 0; /* remove spacing */
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,100 @@
+html{
+    background: linear-gradient(to bottom, white, rgb(243, 92, 92));
+    font-family: cursive;
+  }
+  body{
+    margin: 7px;
+    padding: 7px;
+  }
+  nav {
+      background-color: rgb(29, 8, 8);
+      height: 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 50px;
+  }
+  nav .logo h1 {
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+      margin: 0;
+  }
+  nav ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+  } 
+  nav li {
+    margin: 0 10px;
+  }
+  nav a {
+      color: #e5e5e5;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+  }
+  nav a:hover{
+    background-color: red;
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #A5D7E8;
+  border-radius: 5px
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #14213D;
+    border-radius: 5px
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    border-radius: 5px
+  }
+  video{
+    margin-right: 100px;
+    float: right;
+    border: 5px solid #14213D;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 328px;
+    width: 650px;
+  }
+  #text{
+    color: black;
+    margin-left: 110px;
+    margin-top: 100px;
+  }
+  #text p{
+    font-size: 150%;
+    margin-left: 30px;
+  }
+  #content{
+    border: dashed 4px #14213D;
+    padding: 7px;
+    margin: 7px;
+    font-size: large;
+    text-align: center;
+  }
+  #content h1{
+    text-decoration: underline;
+  }
+  #content ul li{
+     list-style-type: none;
+     border: solid 3px black;
+     padding: 7px;
+     margin: 7px;
+     
+  }
+  #content a{
+    text-decoration: none;
+  }  
